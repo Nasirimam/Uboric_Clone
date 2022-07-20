@@ -48,6 +48,7 @@
 }
 #head>div>button:hover{
     background-color: rgb(5, 25, 139);
+    cursor: pointer;
 }
 #cart{
     border: 0px solid blue;
@@ -82,6 +83,7 @@
 #navbar>div:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 /* add */
