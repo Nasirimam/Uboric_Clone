@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+}
+#father{
+    border: 0px solid;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+#child{
+    border: solid yellow 2px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: burlywood;
+}
+#child>h1{
+    color: rgba(48, 48, 214, 0.548);
+}
+#child>p{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+#Email{
+    padding: 10px 100px;
+    margin-top: -10px;
+    background-color: cornsilk;
+    color: firebrick;
+    font-size: 20px;
+}
+#password{
+    padding: 10px 100px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    background-color: cornsilk;
+    color: firebrick;
+    font-size: 20px;
+}
+button{
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(240, 180, 62);
+    border: 1px solid;
+}
+button:hover{
+    background-color: white;
+}
+hr{
+    border: yellow 2px solid;
+}

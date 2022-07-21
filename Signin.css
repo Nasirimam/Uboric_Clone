@@ -1,0 +1,303 @@
+.discounts{
+    text-align: center;
+    background-color: #1e516c;
+    margin: 0px 0px 20px 0px;
+    padding: 1px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+#head{
+    border: 0px solid;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(243, 239, 239, 0.5)
+}
+#logo,#search{
+    border: 0px solid red;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo>img{
+    width: 40%;
+}
+#head>div>input[type="text"]{
+    padding: 10px;
+    font-size: 17px;
+    border: 0px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border: 1px solid;
+}
+#head>div>button{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 8px;
+}
+#head>div>button:hover{
+    background-color: rgb(5, 25, 139);
+    cursor: pointer;
+}
+#cart{
+    border: 0px solid blue;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#cart>button{
+    margin: 0px 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* Nevbar */
+
+#navbar{
+    width: 70%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbar>div{
+    margin: 0px 2px;
+    padding: 10px;
+}
+#navbar>div:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#navbar>div:nth-child(3){
+    background-color: black;
+    color: white;
+}
+
+/* My account */
+#Myaccount{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    color: rgba(48, 48, 214, 0.861);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* LOGIN page */
+#create{
+    display: flex;
+    border: 0px solid;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#create>div{
+    width: 42%;
+    height: auto;
+    margin: auto;
+    border: 0px solid red;
+}
+#login>h1{
+    text-align: center;
+}
+#gray>h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+/* google Button */
+#googlebut{
+    display: flex;
+    border: 1px solid rgba(60, 60, 205, 0.815);
+    width: fit-content;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+#googlebut:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#googlebut>div>img{
+    width: 100%;
+    margin-top: 5px;
+}
+#googlebut>button{
+    background-color: rgba(60, 60, 205, 0.815);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    padding: 2px 20px;
+}
+
+/* Inputes */
+
+#gray{
+    border: 0px solid;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgba(128, 128, 128, 0.04);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#EmailID{
+    padding: 15px;
+    padding-right: 250px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+    border:1px solid rgba(119, 109, 109, 0.225);
+}
+#pass{
+    padding: 15px;
+    padding-right: 250px;
+    margin-top: -7px;
+    border:1px solid rgba(119, 109, 109, 0.225);
+    margin-bottom: 20px;
+}
+
+#remember{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gray>p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#loginbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+#loginbutton>button{
+    padding: 17px;
+    background-color: rgb(240, 180, 62);
+    border: 1px solid;
+    border-radius: 5px;
+}
+#loginbutton>button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+#passlost{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: -10px;
+}
+#passlost>p{
+    font-family:Arial, Helvetica, sans-serif; 
+}
+#passlost>p:hover{
+    color: blue;
+    cursor: pointer;
+}
+/* Register part */
+#register>h1{
+    text-align: center;
+    margin-bottom:60px;
+}
+#register>h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#register>p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#register>p:nth-child(3){
+    margin-bottom: 15px;
+}
+#registerbut{
+    display: flex;
+    align-items: center;
+}
+#registerbut>button{
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(240, 181, 62);
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#registerbut>button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* User Reveiw */
+
+#user-review{
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(151, 153, 25);
+    color: white;
+    padding: 30px 0px;
+}
+
+#user-f{
+    display: flex;
+    border: 0px red solid;
+    width: 80%;
+    margin-bottom: 50px;
+}
+#user-f>div{
+    margin: auto;
+    width: 25%;
+}
+
+#user-review>button{
+    padding: 12px 25px;
+    background-color: rgba(216, 168, 78, 0.842);
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#user-review>button:hover{
+    background-color: rgba(241, 180, 65, 0.986);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* footer */
+
+#footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#foot-f{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+#foot-f>h3:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
