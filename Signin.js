@@ -4,7 +4,9 @@ document.querySelector("#loginbutton").addEventListener("click",userlogin);
 let SEmail;
 let Spassword;
 
-let flag=false
+let x=localStorage.getItem("flag")
+
+let flag=x||false
 localStorage.setItem("flag",flag)
 
 function userlogin(){
@@ -12,6 +14,11 @@ function userlogin(){
 
     let LEmail=document.querySelector("#EmailID").value 
     let Lpassword=document.querySelector("#pass").value 
+
+    personArr.forEach(function(elem){
+        SEmail=elem.email
+        Spassword=elem.pass
+    });
 
     console.log(LEmail)
     if (SEmail==LEmail && Spassword==Lpassword){
@@ -23,10 +30,5 @@ function userlogin(){
         flag=false
         localStorage.setItem("flag",flag)
     }
-
-    personArr.forEach(function(elem){
-        SEmail=elem.email
-        Spassword=elem.pass
-    });
     
 }
