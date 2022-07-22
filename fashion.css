@@ -116,132 +116,63 @@
     color: black;
 }
 
-/* add */
-
-#add{
-    border: 2px solid;
-    height: 500px;
-    margin-bottom: 10px;
-}
-#add>img{
-    width: 100%;
-    height: 100%;
+/* My account */
+#Myaccount{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    color: rgba(48, 48, 214, 0.861);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Kitchen wear */
 
-.Header{
-    border: 0px solid;
+/* Main fashion css */
+
+#fashion{
     display: flex;
+    width: 50%;
+    border: 0px solid;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#fashion>div{
+    width: 40%;
+    height: 300px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#fashion>div>img{
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+}
+#fashion>div>a>img{
+    width: 100%;
+    height: 70%;
+}
+
+#Names{
+    display: flex;
+    border: 0px solid;
     width: 40%;
     margin: auto;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 20px;
 }
-.Header>img{
-    border: 0px solid red;
-    height: 50%;
-    width: 15%;
+#Names>div{
+    border: 0px solid red ;
+    margin-left: 20px;
+    font-size: 20px;
 }
-.Header>h1{
-    color: rgba(48, 48, 214, 0.548);
+#Names>div:first-child{
+    margin-right: 130px;
 }
 
-#kit-c{
-    width: 97%;
-    margin: auto;
-    display: flex;
-    border: 0px solid;
-    justify-content: space-between;
-}
-#kit-c>div{
-    width: 32%;
-    height: 320px;
-    transition: transform .4s;
-}
-#kit-c>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#kit-c>div>img{
-    width: 100%;
-    height: 100%;
-}
 
-/* features */
-
-#feature{
-    margin-top: 50px;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 30px;
-}
-#feature>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* OTHER CATEGORIE */
-
-#cat-c{
-    border: 0px solid;
-    display: grid;
-    grid-template-areas: 
-    'one two'
-    'three three'
-    'four five';
-    gap: 15px;
-}
-#cat-c>div{
-    border: 0px solid red;
-    transition: transform .4s;
-}
-#cat-c>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#cat-c>div>img{
-    width: 100%;
-    height: 100%;
-}
-
-#cat-f{
-    width: 100%;
-    display: flex;
-    margin-top: 30px;
-    gap: 10px;
-    margin-bottom: 40px;
-}
-#cat-f>div{
-    width: 18.5%;
-    margin: auto;
-    box-shadow: rgba(5, 5, 194, 0.1) 0px 8px 24px, rgba(7, 7, 214, 0.1) 0px 16px 56px, rgba(9, 9, 204, 0.1) 0px 24px 80px;
-    transition: transform .4s;
-}
-#cat-f>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#cat-f>div>img{
-    width: 100%;
-    border-radius: 0px;
-}
-
-/* footwear */
-
-#foot{
-    width: 99%;
-    margin: auto;
-    transition: transform .4s;
-}
-#foot:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#foot>img{
-    width: 100%
-}
 
 /* discription */
 

@@ -61,6 +61,23 @@
     border: 0px;
     border-radius: 10px;
 }
+#cart>a>button{
+    margin: 0px 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+#head>div>a>button:hover{
+    background-color: rgb(5, 25, 139);
+    cursor: pointer;
+}
+#head>div>a>button{
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 8px;
+}
 
 /* Nevbar */
 
@@ -84,11 +101,19 @@
     color: white;
     cursor: pointer;
 }
-#navbar>div:nth-child(3){
+#navbar>a>div{
+    margin: 0px 2px;
+    padding: 10px;
+}
+#navbar>a>div:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
-
+#navbar>a{
+    text-decoration: none;
+    color: black;
+}
 /* My account */
 #Myaccount{
     width: 20%;

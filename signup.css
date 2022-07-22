@@ -1,6 +1,125 @@
-body{
-    background-color: aquamarine;
+/* Head part */
+#discount{
+    text-align: center;
+    background-color: #1e516c;
+    margin: 0px 0px 20px 0px;
+    padding: 1px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    position: sticky;
+    top: 0px;
 }
+
+#head{
+    border: 0px solid;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(243, 239, 239, 0.5)
+}
+#logo,#search{
+    border: 0px solid red;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo>img{
+    width: 40%;
+}
+#head>div>input[type="text"]{
+    padding: 10px;
+    font-size: 17px;
+    border: 0px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border: 1px solid;
+}
+#head>div>button{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 8px;
+}
+#head>div>button:hover{
+    background-color: rgb(5, 25, 139);
+    cursor: pointer;
+}
+#search>button{
+    margin-top: 29px;
+}
+#cart{
+    border: 0px solid blue;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#cart>button{
+    margin: 0px 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+#cart>a>button{
+    margin: 0px 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+#head>div>a>button:hover{
+    background-color: rgb(5, 25, 139);
+    cursor: pointer;
+}
+#head>div>a>button{
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 8px;
+}
+
+/* Nevbar */
+
+#navbar{
+    width: 70%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbar>div{
+    margin: 0px 2px;
+    padding: 10px;
+}
+#navbar>div:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#navbar>a>div{
+    margin: 0px 2px;
+    padding: 10px;
+}
+#navbar>a>div:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#navbar>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* main css */
 #father{
     border: 0px solid;
     width: 70%;
@@ -8,14 +127,14 @@ body{
     margin-top: 50px;
 }
 #child{
-    border: solid yellow 2px;
+    border: solid 2px;
     width: 50%;
     margin: auto;
     text-align: center;
-    background-color: burlywood;
+    background-color: #1e516c;
 }
 #child>h1{
-    color: rgba(48, 48, 214, 0.548);
+    color: rgb(195, 195, 215);
 }
 #child>p{
     margin-top: 50px;
@@ -49,4 +168,104 @@ button:hover{
 }
 hr{
     border: yellow 2px solid;
+}
+
+/* discription */
+
+#dis{
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+    border: 0px solid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(241, 241, 241, 0.26);
+    padding: 10px 0px;
+}
+
+#dis>h1{
+    width: 70%;
+    margin: auto;
+    border: 0px solid red;
+    color: rgba(48, 48, 214, 0.548);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#dis>p{
+    font-family:arial;
+    line-height: 30px;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+}
+
+#user-tick{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* User Reveiw */
+
+#user-review{
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(151, 153, 25);
+    color: white;
+    padding: 30px 0px;
+}
+
+#user-f{
+    display: flex;
+    border: 0px red solid;
+    width: 80%;
+    margin-bottom: 50px;
+}
+#user-f>div{
+    margin: auto;
+    width: 25%;
+}
+
+#user-review>button{
+    padding: 12px 25px;
+    background-color: rgba(216, 168, 78, 0.842);
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#user-review>button:hover{
+    background-color: rgba(241, 180, 65, 0.986);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* footer */
+
+#footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#foot-f{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+#foot-f>h3:hover{
+    color: goldenrod;
+    cursor: pointer;
 }

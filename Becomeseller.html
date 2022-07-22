@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SignUp & LogIn</title>
-    <link rel="stylesheet" href="Signin.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become our seller</title>
+    <link rel="stylesheet" href="Becomeseller.css" />
 </head>
 <body>
-    <div class="discounts">
+    <div id="discount">
         <h3>FOR ONLINE PAYMENT EXTRA ₹100 DISCOUNT ON ORDERS ABOVE ₹500</h3>
     </div>
 
@@ -37,48 +40,35 @@
         <a href="Becomeseller.html"><div>Become A Seller</div></a>
     </div>
 
-<!-- My account -->
+    <!-- My account -->
     <div id="Myaccount">
-        <h1>My account</h1>
-        <p>Home <span>﹥ My account</span></p>
+        <h1>Become a Seller</h1>
+        <p>Home <span>﹥ Become a Seller</span></p>
+    </div>
+    
+    <!-- Main Fashion html -->
+
+    <div id="register">
+        <h1>Vendor Registration</h1>
+        <h4>Submit the form below to become a vendor on this store.</h4>
+        <p>Vendor Name * </p>
+        <input type="text" id="sellerName">
+        <p id="Note">Important: This is the name that customers see when purchasing your products. Please choose carefully.</p>
+        <p>Please describe something about your company and what you sell. *</p>
+        <input type="text" id="sellerdis">
+        <div id="panNo">
+            <p>Pan No</p>
+            <input type="text">
+            <p>GST No</p>
+            <input type="text">
+        </div>
+        <p>Contact No</p>
+        <input type="text" id="contect">
+        <br>
+        <button id="but">Register</button>
     </div>
 
-    <div id="create">
-        <div id="login">
-            <h1>Login</h1>
-            <div id="gray">
-                <h5>connect with</h5>
-            <div id="googlebut">
-                <div><img src="https://www.uboric.com/wp-content/plugins/miniorange-login-openid/includes/images/icons/g.png"></div>
-                <button>Login With Google</button>
-            </div>
-            <br><br>
-            <p>Username or email address *</p>
-            <input type="text" placeholder="Type Your Email ID" id="EmailID">
-            <p>Password</p>
-            <input type="password" placeholder="Type Your Password" id="pass">
-            <br>
-            <div id="remember">
-                <input type="checkbox">
-                <p>Remember Me</p>
-            </div>
-            <div id="loginbutton"><button>LOG IN</button></div>
-            <div id="passlost"><p>Lost your password?</p></div>
-            </div>
-        </div>
-        <div id="register">
-            <h1>Register</h1>
-            <h5>Creating an account is quick and easy, and will allow you to move through our checkout quicker.</h5>
-            <p>Email address *</p>
-            <input type="text" id="EmailID">
-            <p>A link to set a new password will be sent to your email address.</p>
-            <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</p>
-            <div id="registerbut"><button>Register</button></div>
-        </div>
-    </div>
-
-
-<!-- User review -->
+    <!-- User Reveiw -->
 
     <div id="user-review">
         <h1>What Our Customer Says</h1>
@@ -119,5 +109,3 @@
     </div>
 </body>
 </html>
-
-<script src="Signin.js"></script>
