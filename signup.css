@@ -54,6 +54,9 @@
     background-color: rgb(5, 25, 139);
     cursor: pointer;
 }
+#search>button{
+    margin-top: 29px;
+}
 #cart{
     border: 0px solid blue;
     width: 33%;
@@ -120,131 +123,55 @@
     color: black;
 }
 
-/* add */
-
-#add{
-    border: 2px solid;
-    height: 500px;
-    margin-bottom: 10px;
-}
-#add>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* Kitchen wear */
-
-.Header{
+/* main css */
+#father{
     border: 0px solid;
-    display: flex;
-    width: 40%;
+    width: 70%;
     margin: auto;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    align-items: center;
-}
-.Header>img{
-    border: 0px solid red;
-    height: 50%;
-    width: 15%;
-}
-.Header>h1{
-    color: rgba(48, 48, 214, 0.548);
-}
-
-#kit-c{
-    width: 97%;
-    margin: auto;
-    display: flex;
-    border: 0px solid;
-    justify-content: space-between;
-}
-#kit-c>div{
-    width: 32%;
-    height: 320px;
-    transition: transform .4s;
-}
-#kit-c>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#kit-c>div>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* features */
-
-#feature{
     margin-top: 50px;
-    width: 100%;
-    height: 300px;
+}
+#child{
+    border: solid 2px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #1e516c;
+}
+#child>h1{
+    color: rgb(195, 195, 215);
+}
+#child>p{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+#Email{
+    padding: 10px 100px;
+    margin-top: -10px;
+    background-color: cornsilk;
+    color: firebrick;
+    font-size: 20px;
+}
+#password{
+    padding: 10px 100px;
+    margin-top: -10px;
     margin-bottom: 30px;
+    background-color: cornsilk;
+    color: firebrick;
+    font-size: 20px;
 }
-#feature>img{
-    width: 100%;
-    height: 100%;
+button{
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(240, 180, 62);
+    border: 1px solid;
 }
-
-/* OTHER CATEGORIE */
-
-#cat-c{
-    border: 0px solid;
-    display: grid;
-    grid-template-areas: 
-    'one two'
-    'three three'
-    'four five';
-    gap: 15px;
+button:hover{
+    background-color: white;
 }
-#cat-c>div{
-    border: 0px solid red;
-    transition: transform .4s;
-}
-#cat-c>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#cat-c>div>img{
-    width: 100%;
-    height: 100%;
-}
-
-#cat-f{
-    width: 100%;
-    display: flex;
-    margin-top: 30px;
-    gap: 10px;
-    margin-bottom: 40px;
-}
-#cat-f>div{
-    width: 18.5%;
-    margin: auto;
-    box-shadow: rgba(5, 5, 194, 0.1) 0px 8px 24px, rgba(7, 7, 214, 0.1) 0px 16px 56px, rgba(9, 9, 204, 0.1) 0px 24px 80px;
-    transition: transform .4s;
-}
-#cat-f>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#cat-f>div>img{
-    width: 100%;
-    border-radius: 0px;
-}
-
-/* footwear */
-
-#foot{
-    width: 99%;
-    margin: auto;
-    transition: transform .4s;
-}
-#foot:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#foot>img{
-    width: 100%
+hr{
+    border: yellow 2px solid;
 }
 
 /* discription */

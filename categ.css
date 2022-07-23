@@ -120,131 +120,45 @@
     color: black;
 }
 
-/* add */
 
-#add{
+/* Main Page Css */
+#catover{
+    display: flex;
+    flex-direction: column;
     border: 2px solid;
-    height: 500px;
-    margin-bottom: 10px;
-}
-#add>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* Kitchen wear */
-
-.Header{
-    border: 0px solid;
-    display: flex;
-    width: 40%;
+    width: 55%;
     margin: auto;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    align-items: center;
+    background-color: white;
+    margin-top: 20px;
 }
-.Header>img{
-    border: 0px solid red;
-    height: 50%;
-    width: 15%;
+#catover>div{
+    border: 0px red solid;
+    font-size: 60px;
+    margin: 5px 0px;
+    background-color: #1e516c;
+    color: white;
 }
-.Header>h1{
-    color: rgba(48, 48, 214, 0.548);
-}
-
-#kit-c{
-    width: 97%;
-    margin: auto;
-    display: flex;
-    border: 0px solid;
-    justify-content: space-between;
-}
-#kit-c>div{
-    width: 32%;
-    height: 320px;
-    transition: transform .4s;
-}
-#kit-c>div:hover{
-    transform: scale(1.03);
+#catover>div:hover{
+    color: rgba(0, 0, 0, 0.798);
     cursor: pointer;
 }
-#kit-c>div>img{
-    width: 100%;
-    height: 100%;
+#catover>div:last-child{
+    margin-bottom: 0px;
 }
-
-/* features */
-
-#feature{
-    margin-top: 50px;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 30px;
+#catover>div:first-child{
+    margin-top: 0px;
 }
-#feature>img{
-    width: 100%;
-    height: 100%;
+#catover>a{
+    border: 0px red solid;
+    font-size: 60px;
+    margin: 5px 0px;
+    background-color: #1e516c;
+    color: white;
+    text-decoration: none;
 }
-
-/* OTHER CATEGORIE */
-
-#cat-c{
-    border: 0px solid;
-    display: grid;
-    grid-template-areas: 
-    'one two'
-    'three three'
-    'four five';
-    gap: 15px;
-}
-#cat-c>div{
-    border: 0px solid red;
-    transition: transform .4s;
-}
-#cat-c>div:hover{
-    transform: scale(1.03);
+#catover>a:hover{
+    color: rgba(0, 0, 0, 0.798);
     cursor: pointer;
-}
-#cat-c>div>img{
-    width: 100%;
-    height: 100%;
-}
-
-#cat-f{
-    width: 100%;
-    display: flex;
-    margin-top: 30px;
-    gap: 10px;
-    margin-bottom: 40px;
-}
-#cat-f>div{
-    width: 18.5%;
-    margin: auto;
-    box-shadow: rgba(5, 5, 194, 0.1) 0px 8px 24px, rgba(7, 7, 214, 0.1) 0px 16px 56px, rgba(9, 9, 204, 0.1) 0px 24px 80px;
-    transition: transform .4s;
-}
-#cat-f>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#cat-f>div>img{
-    width: 100%;
-    border-radius: 0px;
-}
-
-/* footwear */
-
-#foot{
-    width: 99%;
-    margin: auto;
-    transition: transform .4s;
-}
-#foot:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#foot>img{
-    width: 100%
 }
 
 /* discription */

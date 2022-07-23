@@ -1,5 +1,4 @@
-/* Head part */
-#discount{
+.discounts{
     text-align: center;
     background-color: #1e516c;
     margin: 0px 0px 20px 0px;
@@ -119,171 +118,156 @@
     text-decoration: none;
     color: black;
 }
-
-/* add */
-
-#add{
-    border: 2px solid;
-    height: 500px;
-    margin-bottom: 10px;
-}
-#add>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* Kitchen wear */
-
-.Header{
-    border: 0px solid;
-    display: flex;
-    width: 40%;
+/* My account */
+#Myaccount{
+    width: 20%;
     margin: auto;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    align-items: center;
-}
-.Header>img{
-    border: 0px solid red;
-    height: 50%;
-    width: 15%;
-}
-.Header>h1{
-    color: rgba(48, 48, 214, 0.548);
+    text-align: center;
+    color: rgba(48, 48, 214, 0.861);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#kit-c{
-    width: 97%;
+/* LOGIN page */
+#create{
+    display: flex;
+    border: 0px solid;
+    width: 90%;
     margin: auto;
-    display: flex;
-    border: 0px solid;
-    justify-content: space-between;
-}
-#kit-c>div{
-    width: 32%;
-    height: 320px;
-    transition: transform .4s;
-}
-#kit-c>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#kit-c>div>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* features */
-
-#feature{
-    margin-top: 50px;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 30px;
-}
-#feature>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* OTHER CATEGORIE */
-
-#cat-c{
-    border: 0px solid;
-    display: grid;
-    grid-template-areas: 
-    'one two'
-    'three three'
-    'four five';
-    gap: 15px;
-}
-#cat-c>div{
-    border: 0px solid red;
-    transition: transform .4s;
-}
-#cat-c>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#cat-c>div>img{
-    width: 100%;
-    height: 100%;
-}
-
-#cat-f{
-    width: 100%;
-    display: flex;
-    margin-top: 30px;
-    gap: 10px;
     margin-bottom: 40px;
 }
-#cat-f>div{
-    width: 18.5%;
-    margin: auto;
-    box-shadow: rgba(5, 5, 194, 0.1) 0px 8px 24px, rgba(7, 7, 214, 0.1) 0px 16px 56px, rgba(9, 9, 204, 0.1) 0px 24px 80px;
-    transition: transform .4s;
-}
-#cat-f>div:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#cat-f>div>img{
-    width: 100%;
-    border-radius: 0px;
-}
-
-/* footwear */
-
-#foot{
-    width: 99%;
-    margin: auto;
-    transition: transform .4s;
-}
-#foot:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-}
-#foot>img{
-    width: 100%
-}
-
-/* discription */
-
-#dis{
-    width: 85%;
-    margin: auto;
-    margin-top: 60px;
-    border: 0px solid;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgba(241, 241, 241, 0.26);
-    padding: 10px 0px;
-}
-
-#dis>h1{
-    width: 70%;
+#create>div{
+    width: 42%;
+    height: auto;
     margin: auto;
     border: 0px solid red;
-    color: rgba(48, 48, 214, 0.548);
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
-#dis>p{
-    font-family:arial;
-    line-height: 30px;
-    text-align: justify;
-    width: 95%;
-    margin: auto;
+#login>h1{
+    text-align: center;
+}
+#gray>h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+/* google Button */
+#googlebut{
+    display: flex;
+    border: 1px solid rgba(60, 60, 205, 0.815);
+    width: fit-content;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+#googlebut:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#googlebut>div>img{
+    width: 100%;
+    margin-top: 5px;
+}
+#googlebut>button{
+    background-color: rgba(60, 60, 205, 0.815);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    padding: 2px 20px;
 }
 
-#user-tick{
-    width: 80%;
-    margin: auto;
+/* Inputes */
+
+#gray{
+    border: 0px solid;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgba(128, 128, 128, 0.04);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#EmailID{
+    padding: 15px;
+    padding-right: 250px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+    border:1px solid rgba(119, 109, 109, 0.225);
+}
+#pass{
+    padding: 15px;
+    padding-right: 250px;
+    margin-top: -7px;
+    border:1px solid rgba(119, 109, 109, 0.225);
+    margin-bottom: 20px;
+}
+
+#remember{
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gray>p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#loginbutton{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+#loginbutton>button{
+    padding: 17px;
+    background-color: rgb(240, 180, 62);
+    border: 1px solid;
+    border-radius: 5px;
+}
+#loginbutton>button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+#passlost{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: -10px;
+}
+#passlost>p{
+    font-family:Arial, Helvetica, sans-serif; 
+}
+#passlost>p:hover{
+    color: blue;
+    cursor: pointer;
+}
+/* Register part */
+#register>h1{
+    text-align: center;
+    margin-bottom:60px;
+}
+#register>h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#register>p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#register>p:nth-child(3){
+    margin-bottom: 15px;
+}
+#registerbut{
+    display: flex;
+    align-items: center;
+}
+#registerbut>button{
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(240, 181, 62);
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#registerbut>button:hover{
+    background-color: transparent;
+    cursor: pointer;
 }
 
 /* User Reveiw */

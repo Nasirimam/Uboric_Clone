@@ -132,6 +132,18 @@
     height: 100%;
 }
 
+/* add */
+
+#add{
+    border: 0px solid;
+    height: 500px;
+    margin-bottom: 10px;
+}
+#add>img{
+    width: 100%;
+    height: 100%;
+}
+
 /* Kitchen wear */
 
 .Header{
@@ -192,9 +204,9 @@
     border: 0px solid;
     display: grid;
     grid-template-areas: 
-    'one two'
-    'three three'
-    'four five';
+    'one two three'
+    'four four four'
+    'five six seven';
     gap: 15px;
 }
 #cat-c>div{
@@ -248,34 +260,6 @@
 }
 
 /* discription */
-
-#dis{
-    width: 85%;
-    margin: auto;
-    margin-top: 60px;
-    border: 0px solid;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgba(241, 241, 241, 0.26);
-    padding: 10px 0px;
-}
-
-#dis>h1{
-    width: 70%;
-    margin: auto;
-    border: 0px solid red;
-    color: rgba(48, 48, 214, 0.548);
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-#dis>p{
-    font-family:arial;
-    line-height: 30px;
-    text-align: justify;
-    width: 95%;
-    margin: auto;
-}
 
 #user-tick{
     width: 80%;
