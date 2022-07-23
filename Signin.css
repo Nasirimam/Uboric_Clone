@@ -45,6 +45,10 @@
     background-color: blue;
     padding: 8px;
 }
+#head>div>button>a{
+    text-decoration: none;
+    color: white;
+}
 #head>div>button:hover{
     background-color: rgb(5, 25, 139);
     cursor: pointer;

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Become our seller</title>
-    <link rel="stylesheet" href="Becomeseller.css" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css" />
 </head>
 <body>
     <div id="discount">
@@ -40,34 +40,36 @@
         <a href="Becomeseller.html"><div>Become A Seller</div></a>
     </div>
 
-    <!-- My account -->
-    <div id="Myaccount">
-        <h1>Become a Seller</h1>
-        <p>Home <span>﹥ Become a Seller</span></p>
-    </div>
-    
+            <!-- My account -->
+            <div id="Myaccount">
+                <h1>Product Cart</h1>
+                <p>Home <span>﹥ Product Cart</span></p>
+            </div>
+
     <!-- Main Fashion html -->
 
-    <div id="register">
-        <h1>Vendor Registration</h1>
-        <h4>Submit the form below to become a vendor on this store.</h4>
-        <p>Vendor Name * </p>
-        <input type="text" id="sellerName">
-        <p id="Note">Important: This is the name that customers see when purchasing your products. Please choose carefully.</p>
-        <p>Please describe something about your company and what you sell. *</p>
-        <input type="text" id="sellerdis">
-        <div id="panNo">
-            <p>Pan No</p>
-            <input type="text">
-            <p>GST No</p>
-            <input type="text">
+    <div id="father">
+        <div id="tablediv">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
-        <p>Contact No</p>
-        <input type="text" id="contect">
-        <br>
-        <button id="but">Register</button>
+        <div id="subtotal">
+            <h1>Cart Total</h1>
+            <h3>Sub Total <span id="totalprice"></span></h3>
+            <h3>Total Item <span id="count"></span></h3>
+            <button>Proceed To Payment ►</button>
+        </div>
     </div>
-
     <!-- User Reveiw -->
 
     <div id="user-review">
@@ -109,3 +111,5 @@
     </div>
 </body>
 </html>
+
+<script src="cart.js"></script>

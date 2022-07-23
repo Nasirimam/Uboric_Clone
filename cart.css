@@ -120,34 +120,9 @@
     color: black;
 }
 
-/* add */
-
-#add{
-    border: 2px solid;
-    height: 500px;
-    margin-bottom: 10px;
-}
-#add>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* add */
-
-#add{
-    border: 2px solid;
-    height: 500px;
-    margin-bottom: 10px;
-}
-#add>img{
-    width: 100%;
-    height: 100%;
-}
-
-
 /* My account */
 #Myaccount{
-    width: 25%;
+    width: 20%;
     margin: auto;
     text-align: center;
     color: rgba(48, 48, 214, 0.861);
@@ -156,76 +131,65 @@
 
 /* Main fashion css */
 
-#Mens{
+tbody>tr>td>img:nth-child(2){
+    width: 100px;
+    height: 100px;
+}
+tbody>tr>td>img:nth-child(1){
+    height: 25px;
+    width:25px;
+}
+tbody>tr>td>img:nth-child(1):hover{
+    cursor: pointer;
+}
+tbody>tr>td:first-child{
     display: flex;
-    border: 0px solid;
-    text-align: center;
-    font-size: 20px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-}
-#Mens>div{
-    margin: auto;
-    border: 0px solid yellow;
-    width: 20%;
-}
-#Mens>div>div{
-    border: 0px red solid;
-    width: 100%;
-    height: 300px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-#Mens>div>div>img{
-    width: 100%;
-    height: 300px;
-}
-#Mens>div>div>a>img{
-    width: 100%;
-    height: 300px;
-}
-
-
-
-/* discription */
-
-#dis{
-    width: 85%;
-    margin: auto;
-    margin-top: 60px;
-    border: 0px solid;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    background-color: rgba(241, 241, 241, 0.26);
-    padding: 10px 0px;
+    align-items: center;
+    gap:10px
 }
 
-#dis>h1{
-    width: 70%;
-    margin: auto;
-    border: 0px solid red;
-    color: rgba(48, 48, 214, 0.548);
-    margin-top: 25px;
-    margin-bottom: 25px;
+input{
+    padding: 10px;
+    width: 50px;
 }
-#dis>p{
-    font-family:arial;
-    line-height: 30px;
-    text-align: justify;
-    width: 95%;
-    margin: auto;
-}
-
-#user-tick{
+table{
+    border: 0px solid;
     width: 80%;
     margin: auto;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
+    font-size: 25px;
 }
-
+tbody>tr>td{
+    background-color: rgba(241, 241, 78, 0.321);
+}
+#father{
+    border: 0px solid;
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#subtotal{
+    border: 0px red solid;
+    font-size: 30px;
+    width: 30%;
+    margin: auto;
+    background-color: rgba(237, 223, 223, 0.214);
+}
+#subtotal>button{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(243, 210, 122);
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+#subtotal>button:hover{
+    background-color:white
+}
+#tablediv{
+    border: 0px solid blue;
+    width: 65%;
+    margin: auto;
+}
 /* User Reveiw */
 
 #user-review{
